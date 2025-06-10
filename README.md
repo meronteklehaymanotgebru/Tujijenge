@@ -1,8 +1,8 @@
-## :📱 Tujijenge Database README
+## 📱 Tujijenge Database README
 
 **Tujijenge** is a digital platform that supports Mama Mbogas (small-scale vegetable vendors) by helping them connect with suppliers, get certified training, and manage their inventory better.
 
-### :📁 Tables Overview
+### 📁 Tables Overview
 
 #### 1. `user`
 
@@ -41,7 +41,7 @@
 
 ---
 
-### :⚙️ Notes
+### ⚙️ Notes
 
 * Locations are stored using **PostGIS** (geography type).
 * All IDs are short `VARCHAR(15)` strings.
