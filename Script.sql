@@ -73,4 +73,19 @@ CREATE TABLE tujijenge.product_details (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+INSERT INTO tujijenge.user (user_id, user_type, username, phone_number, email, password_hash, location) VALUES
+
+('U001', 'GAIN', 'gain_nairobi', NULL, 'wecare@taimba.co.ke', 'hash_gain', ST_GeogFromText('SRID=4326;POINT(36.8219 -1.2921)')),
+
+('U002', 'Taimba', 'taimba_hub', NULL, 'infogain_benin@gainhealth.org', 'hash_taimba', ST_GeogFromText('SRID=4326;POINT(36.8131 -1.2864)')),
+
+('U003', 'MamaMboga', 'mboga_anne', '254701000001', NULL, 'hash1', ST_GeogFromText('SRID=4326;POINT(36.8201 -1.2950)')),
+('U004', 'MamaMboga', 'mboga_jane', '254701000002', NULL, 'hash2', ST_GeogFromText('SRID=4326;POINT(36.8250 -1.2930)')),
+('U005', 'MamaMboga', 'mboga_mary', '254701000003', NULL, 'hash3', ST_GeogFromText('SRID=4326;POINT(36.8290 -1.2915)')),
+('U006', 'MamaMboga', 'mboga_linda', '254701000004', NULL, 'hash4', ST_GeogFromText('SRID=4326;POINT(36.8220 -1.2970)')),
+('U007', 'MamaMboga', 'mboga_alice', '254701000005', NULL, 'hash5', ST_GeogFromText('SRID=4326;POINT(36.8240 -1.2905)')),
+('U008', 'MamaMboga', 'mboga_susan', '254701000006', NULL, 'hash6', ST_GeogFromText('SRID=4326;POINT(36.8270 -1.2890)')),
+('U009', 'MamaMboga', 'mboga_ruth', '254701000007', NULL, 'hash7', ST_GeogFromText('SRID=4326;POINT(36.8280 -1.2920)')),
+('U010', 'MamaMboga', 'mboga_faith', '254701000008', NULL, 'hash8', ST_GeogFromText('SRID=4326;POINT(36.8235 -1.2945)'));
+
 
