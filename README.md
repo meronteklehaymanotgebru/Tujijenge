@@ -1,4 +1,4 @@
-## 📱 Tujijenge Database README
+## 📱 🖥️ Tujijenge Database README
 
 **Tujijenge** is a digital platform that supports Mama Mbogas (small-scale vegetable vendors) by helping them connect with suppliers, get certified training, and manage their inventory better.
 
@@ -47,9 +47,6 @@
 * All IDs are short `VARCHAR(15)` strings.
 * Important checks are in place to make sure each user type has the right contact info.
 
----
 
-### :📢 How to Add Icons in README Without Copy-Paste
 
-If you’re using **Markdown** on platforms like GitHub, you can use emoji shortcodes like this:
 
